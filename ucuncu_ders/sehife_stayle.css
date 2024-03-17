@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+#header {
+    background-color: black;
+    height: 50px;
+
+}
+
+
+
+.left,.right {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+}
+
+
+#header {
+    font-family: 'Times New Roman', Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+
+}
+
+
+
+
+
+

@@ -1,0 +1,427 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+#header {
+    background-color: white;
+    height: 55px;
+    padding: 20px;
+    box-shadow: 1px 1px 10px rgb(194, 184, 184);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+
+
+#header .link {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    letter-spacing: 4px;
+    word-spacing: 2px;
+    z-index: 10;
+
+}
+
+#header .link:hover {
+    background-color: rgb(180, 176, 176);
+    z-index: 10;
+
+}
+
+.link {
+    font-size: 15px;
+}
+
+
+#right_side_header {
+    float: right;
+    display: flex;
+    position: relative;
+    right: 1px;
+
+}
+
+
+#left_side_header {
+    float: left;
+    letter-spacing: 3px;
+
+}
+
+
+
+
+
+#one_img {
+    position: relative;
+    bottom: 60px;
+
+}
+
+
+#one_img .one-h1 {
+    position: absolute;
+    z-index: 0;
+    bottom: 30px;
+    left: 20px;
+
+}
+
+
+.one_section_img {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+.one-h1 {
+    letter-spacing: 3px;
+    font-weight: lighter;
+    color: rgb(90, 88, 88);
+    font-size: 35px;
+    font-family: 'Times New Roman', Georgia, Serif;
+}
+
+#second_section ,#third_section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+
+}
+
+.second_section_img {
+    height: auto;
+    margin: 10px;
+    position: relative;
+    right: 3.5px;
+    border-radius: 4px;
+    opacity: 0.75;
+    float: left;
+}
+
+
+#info {
+    text-align: center;
+    position: relative;
+    left: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+
+}
+
+
+#info .h1 {
+    font-weight: lighter;
+    letter-spacing: 4px;
+    font-size: 40px;
+    padding-top: 20px;
+
+}
+
+#info .h3 {
+    font-weight: lighter;
+    letter-spacing: 5px;
+    padding-top: 50px;
+}
+
+#info .p {
+    word-spacing: 1px;
+    text-align: left;
+    padding-top: 20px;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Georgia, Serif;
+    line-height: 27px;
+    font-size: 18px;
+
+}
+
+#info .span {
+    background-color: #f1f1f1;
+    padding: 0px 8px;
+}
+
+#info .bir {
+    margin-left: auto;
+    margin-right: auto;
+    width: 99%;
+    color: #757575;
+}
+
+.one-hr {
+    margin-left: auto;
+    margin-right: auto;
+    width: 72%;
+    border-top: 0px solid #eee;
+
+}
+
+#one-hr-div {
+    padding-top: 230px;
+    padding-bottom: 240px;
+
+}
+
+
+
+
+.third_section_img {
+    position: relative;
+    left: 555px;
+    bottom: 145px;
+    border-radius: 4px;
+    opacity: 0.75;
+
+}
+
+.th1 {
+    position: relative;
+    bottom: 890px;
+    font-weight: lighter;
+    font-size: 40px;
+    left: 160px;
+    letter-spacing: 3px;
+
+}
+
+
+.th4 {
+    position: relative;
+    bottom: 835px;
+    left: 6px;
+    font-weight: lighter;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.tp{
+    position: relative;
+    bottom: 815px;
+    left: 6px;
+    font-weight: lighter;
+    font-size: 15px;
+    color: #757575 
+}
+
+.t1h4{
+    position: relative;
+    bottom: 760px;
+    left: 6px;
+    font-weight: lighter;
+    font-size: 20px;
+    letter-spacing: 5px;
+
+}
+
+.t1p{
+    position: relative;
+    bottom: 740px;
+    left: 6px;
+    font-weight: lighter;
+    font-size: 15px;
+    color: #757575 
+}
+
+.t2h4{
+    position: relative;
+    bottom: 685px;
+    left: 6px;
+    font-weight: lighter;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.t2p{
+    position: relative;
+    bottom: 665px;
+    left: 6px;
+    font-weight: lighter;
+    font-size: 15px;
+    color: #757575 
+}
+
+.t3h4{
+    position: relative;
+    bottom: 610px;
+    left: 6px;
+    font-weight: lighter;
+    font-size: 20px;
+    letter-spacing: 5px;   
+}
+
+.t3p{
+    position: relative;
+    bottom: 590px;
+    left: 6px;
+    font-weight: lighter;
+    font-size: 15px;
+    color: #757575 
+}
+
+.t4h4{
+    position: relative;
+    bottom: 535px;
+    left: 6px;
+    font-weight: lighter;
+    font-size: 20px;
+    letter-spacing: 5px; 
+}
+.t4p{
+    position: relative;
+    bottom: 515px;
+    left: 6px;
+    font-weight: lighter;
+    font-size: 15px;
+    color: #757575 
+}
+
+.two-hr {
+    margin-left: auto;
+    margin-right: auto;
+    width: 72%;
+    border-top: 1px solid #eee;
+
+}
+
+#two-hr-div {
+    padding-top: 230px;
+    padding-bottom: 240px;
+
+    position: relative;
+    bottom: 570px;
+}
+
+#fourth_section{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%; 
+    max-height: 0px;
+}
+
+.fh1{
+    position: relative;
+    bottom: 710px;
+    font-size: 40px;
+    letter-spacing:3px;
+    font-weight: lighter;
+}
+
+.fp1 {
+    position: relative;
+    bottom: 655px;
+    font-size: 15px;
+    line-height: 20px;    
+}
+
+.fh4{
+    position: relative;
+    bottom: 630px;
+    font-size: 18px; 
+    color: #607d8b 
+}
+
+.fp2{
+    position: relative;
+    bottom: 610px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#form {
+    position: relative;
+    bottom:590px;
+}
+
+#frist_name {
+    border: none;
+    padding: 16px 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+
+
+}
+
+#nme{
+    padding-bottom: 20px;
+}
+
+#num{
+    border: none;
+    padding: 16px 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    
+}
+
+#nmbr{
+    padding-bottom: 20px;
+}
+#date{
+    border: none;
+    padding: 16px 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+#dte{
+    padding-bottom: 20px;
+}
+
+#msg{
+    border: none;
+    padding: 16px 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+#mesg{
+    padding-bottom: 20px;
+    
+}
+
+#submit{
+    padding: 8px 16px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+#sbt{
+    position: relative;
+    top: 15px;
+}
+
+#fotter {
+    text-align: center;
+    background-color: #f1f1f1;
+    color: #000;
+    padding: 50px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    
+}

@@ -8,77 +8,90 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./one_template_Css.css">
+    <link rel="stylesheet" href="./one_template.css">
 </head>
 
 <body>
+    <!-- H  E A D E R -->
+
     <header id="header">
-        <div id="right_side_header">
+        <div class="left_side_header">
             <a class="#" href="#">
                 <h3>MY ART</h3>
             </a>
         </div>
-        <div id="left_side_header">
+        <div class="right_side_header">
             <a href="#">
                 <h3>About</h3>
             </a>
         </div>
     </header>
-    <section id="one_section">
-        <div id="one">
-            <img class="one-img" src="./1 ci sekil.jpg" alt="birincisekil" width="749.99" height="421.86">
+
+    <!-- ONE - SECTION  -->
+
+    <SECtion id="one_section">
+        <div class="one_part">
+            <div class="one-img">
+                <img src="./1 ci sekil.jpg" width="749.99" height="421.86" alt="birincisekil">
+            </div>
+
+            <div class="two-img">
+                <img src="./2 ci sekil.jpg" width="749.99" height="499.79" alt="ikincisekil">
+            </div>
         </div>
-        <div id="two">
-            <img class="two-img" src="./2 ci sekil.jpg" alt="ikincisekil" width="749.99" height="499.79">
+
+        <div class="second_part">
+            <div class="three-img">
+                <img class="timg" src="./3 cu sekil.jpg" width="749.99" height="499.79" alt="ucuncu sekil">
+            </div>
+
+            <div class="four-img">
+                <img src="./4 cu sekil.jpg" width="749.99" height="999.98" alt="dorduncu sekil">
+            </div>
         </div>
-        <div id="three">
-            <img class="three-img" src="./3 cu sekil.jpg" alt="ucuncusekil" width="749.99" height="499.79">
+
+        <div class="third-img">
+            <img src="./5 ci sekil.jpg" width="749.99" height="581.24" alt="besincisekil">
         </div>
-        <div id="fourth">
-            <img class="fourth-img" src="./4 cu sekil.jpg" alt="dorduncusekil" width="749.99" height="999.98">
-        </div>
-        <div id="five">
-            <img class="five-img" src="./5 ci sekil.jpg" alt="besincisekil" width="749.99" height="581.24">
-        </div>
-    </section>
+    </SECtion>
+
     <section id="second_section">
-        <div id="About-h1">
-            <h1 class="About">About</h1>
+        <div class="about">
+            <h1 class="h1">About</h1>
         </div>
-        <div id="six">
-            <img class="six-img" src="./6 ci sekil.jpg" alt="altincisekil" width="300" height="426">
+
+        <div class="six-img">
+            <img class="s-img" src="./6 ci sekil.jpg" alt="altincisekil" width="300" height="424">
         </div>
-        <div id="About-p">
-            <p class="p">Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of
+
+        <div class="a-info">
+            <p class="a-p">Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an
+                interest of
                 lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus
                 ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
                 Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
                 congue gravida diam non fringilla.</p>
         </div>
-        <div id="About-h3">
-            <h3 class="h3">Do not hesitate to contact me!</h3>
+
+        <div class="a-info">
+            <h3 class="a-h1">Do not hesitate to contact me!</h3>
         </div>
-        <form action=""  >  
-            <div id="nme">
-                <label class="name" for="name">Name</label>
-                <input type="text" name="name" id="name" class="text">
-            </div>
 
-            <div id="eml">
-                <label class="email" for="email">Email</label>
-                <input type="text" name="email" id="email" class="text">
-            </div>
 
-            <div id="msg">
-                <label class="message" for="message">Message</label>
-                <input type="text" name="message" id="message" class="text">
-            </div>
-
-            <div id="btn">
-                <input class="submit" type="submit" name="" id="">
+        <form class="nme" action="#" method="get" target="_blank">
+            <label class="nme-l" for="name">Name</label>
+            <input class="nme-i text" type="text" name="name" id="name" required>
+            <label class="nme-l" for="email">Email</label>
+            <input class="nme-i text" type="text" name="email" id="email" required>
+            <label class="nme-l" for="message">Message</label>
+            <input class="nme-i text" type="text" name="message" id="message" required>
+            <div class="submit">
+                <button class=" sbmt text" type="submit">Send</button>
             </div>
         </form>
-    </section>
-</body>
 
-</html>
+        <footer class="ftr">    
+            Powered by<a href="https://www.w3schools.com/w3css/default.asp"> w3.css</a>
+        </footer>
+
+    </section>

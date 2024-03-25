@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+#header {
+    padding: 36px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#header a {
+    font-family: "Raleway", Arial, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+#header .left_side_header {
+    padding-left: 6px;
+}
+
+#header .right_side_header {
+    padding-right: 7px;
+}
+
+
+/* ONE-SECTION */
+
+
+#one_section {
+    margin-right: auto;
+    margin-left: auto;
+    width: 98.7%;
+}
+
+#one_section .one_part,
+#one_section .second_part {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.three-img {
+    margin-top: -90px;
+}
+
+
+.four-img {
+    margin-top: -12px;
+}
+
+.third-img {
+    margin-top: -590px;
+}
+
+
+/* SECOND SECTION */
+
+
+#second_section {
+    background-color: #f1f1f1;
+    margin-top: -10px;
+    padding-bottom: 81px;
+
+}
+
+.about {
+    padding-left: 719px;
+    padding-top: 80px;
+
+}
+
+.h1 {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.six-img {
+    text-align: center;
+    padding-top: 13px;
+}
+
+.s-img {
+    padding: 32px 0px;
+}
+
+.a-info {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+
+}
+
+.a-p {
+    text-align: center;
+    font-family: "Raleway", Arial, sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+    word-spacing: 1px;
+    font-size: 15px;
+    line-height: 22px;
+    padding-bottom: 22px;
+
+}
+
+.a-h1 {
+    text-align: center;
+    font-family: "Raleway", Arial, sans-serif;
+    color: #e91e63;
+    font-size: 18px;
+    word-spacing: 1px;
+}
+
+.nme {
+    text-align: center;
+
+}
+
+
+.nme-l {
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-family: "Raleway", Arial, sans-serif;
+    font-weight: bold;
+}
+
+.text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 1px solid #ccc !important;
+}
+
+.nme-i {
+    padding: 10px 0px;
+
+}
+
+.submit {
+    padding-top: 16px;
+}
+
+.sbmt {
+    padding: 8px 0px;
+    background-color: #616161;
+    color: #fff;
+    padding: 10px 0px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+
+
+.sbmt:hover {
+    background-color: #ccc;
+    color: #000 !important
+}
+
+.ftr {
+    color: #000;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-family: "Raleway", Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 14px;
+}

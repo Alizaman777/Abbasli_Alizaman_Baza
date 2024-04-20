@@ -1,0 +1,686 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 68px;
+    margin: auto;
+    width: 1200px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+
+
+.text {
+    font-family: "Karma", sans-serif;
+    font-weight: 400;
+}
+
+
+.right_side_nav {
+    padding-right: 3px;
+}
+
+
+#header-menu{
+    margin: 0;
+    padding: 0;
+}
+
+.button-div-1 .btn1,
+.button-div-2 .btn2,
+.button-div-3 .btn3 {
+    position: relative;
+    right: 20px;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    text-decoration: none;
+    width:360px;
+    margin-left: 39.5px;
+    margin-top: 4px; 
+    height: 44px;
+    font-size: 24px;
+    padding:10px 0px;
+}
+
+.button-div-1, 
+.button-div-2,
+.button-div-3{
+    margin: 0;
+}
+
+.button-div-1 .button,
+.button-div-2 .button, 
+.button-div-3 .button{
+    border: none;
+    display: flex;
+    text-align: start;
+    margin: 0;
+    padding: 14px 0px;
+    position: relative;
+    bottom: 24px;
+}
+
+
+.button-div-1 .button:hover,
+.button-div-2 .button:hover, 
+.button-div-3 .button:hover{
+    background-color: #ccc;
+}
+
+
+
+
+
+.button {
+    background: none;
+}
+
+.right_side_nav:hover {
+    background-color: #ccc;
+
+
+
+}
+
+.nav-img {
+    height: 60px;
+    width: 50px;
+    padding-left: 5px;
+}
+
+.center_side_header,
+.left_side_header {
+    padding-top: 20px;
+}
+
+.center_side_header .text,
+.left_side_header .text {
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+#one_section,
+#second_section {
+    position: relative;
+    display: flex;
+}
+
+
+
+
+#one-divison .o-d-i {
+    margin-top: 56px;
+    margin-left: 192px;
+    background-color: red;
+    display: inline-block;
+}
+
+
+
+
+.o-d-t,
+.s-d-t,
+.t-d-t,
+.f-d-t,
+.s-o-d-t,
+.s-s-d-t,
+.s-t-d-t,
+.s-f-d-t {
+    margin: auto;
+    width: 300px;
+    margin-left: 175px;
+
+}
+
+.one-h3,
+.two-h3,
+.third-h3,
+.fourth-h3,
+.fourth-h3,
+.sec-one-h3,
+.sec-two-h3,
+.sec-third-h3,
+.sec-fourth-h3 {
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 5px;
+}
+
+.one-p,
+.two-p,
+.third-p,
+.third-p2,
+.fourth-p,
+.sec-one-p,
+.sec-two-p,
+.sec-third-p,
+.sec-fourth-p {
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+    margin: 15px 0;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#two-divison .s-d-i,
+#three-divison .t-d-i,
+#four-divison .f-d-i {
+    background-color: red;
+    display: inline-block;
+    position: relative;
+    top: 56px;
+    left: 4px;
+}
+
+
+.s-d-t {
+    margin: auto;
+    width: 250px;
+    margin-top: 66px;
+    margin-left: 13px;
+}
+
+
+.two-p {
+    margin: auto;
+    width: 300px;
+    margin-left: 0px;
+    position: relative;
+    right: 22.5px;
+    top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#three-divison .t-d-i {
+    left: 20px;
+    top: 26px;
+}
+
+.t-d-t {
+    position: relative;
+    top: 26px;
+    right: 171px;
+}
+
+#three-divison .third-p {
+    margin: auto;
+    width: 250px;
+    margin-top: 15px;
+    margin-right: 22.5px;
+}
+
+#three-divison {
+    margin: auto;
+    width: 297px;
+}
+
+
+
+
+
+
+#four-divison .f-d-i {
+    left: 11px;
+}
+
+
+#four-divison .f-d-t {
+    position: relative;
+    top: 56px;
+    right: 180px;
+
+}
+
+
+#four-divison .fourth-p {
+    margin: auto;
+    width: 250px;
+    position: absolute;
+    left: 27.5px;
+    top: 87px;
+}
+
+
+
+
+
+#second_section {
+    top: 50px;
+}
+
+
+
+
+
+
+#sec-one-divison .s-o-d-i {
+    position: relative;
+    left: 192px;
+    top: 2px;
+}
+
+
+#sec-one-divison .sec-one-h3 {
+    position: relative;
+    top: 2px;
+
+}
+
+#sec-one-divison .sec-one-p {
+    margin: auto;
+    width: 250px;
+    position: relative;
+    top: 7px;
+    left: 2.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#sec-two-divison .s-s-d-t,
+#sec-three-divison .s-t-d-t,
+#sec-four-divison .s-f-d-t {
+    margin-left: -12px;
+
+}
+
+
+
+
+
+
+
+
+#sec-two-divison .s-s-d-i,
+#sec-three-divison .s-t-d-i,
+#sec-four-divison .s-f-d-i {
+    margin-left: 4px;
+    margin-top: 2px;
+}
+
+
+
+
+#third_section {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 99px;
+
+}
+
+
+
+
+
+
+
+
+.page-link:hover {
+    background-color: black;
+    color: white;
+    border: 0px solid black;
+
+}
+
+.one:hover{
+    background-color: #ccc;
+    color: black;
+}
+
+.active.page-link {
+    background-color: black;
+    border: 0px solid black;
+
+}
+
+.active.page-link:hover {
+    background-color: rgb(192, 192, 192);
+
+
+}
+
+.page-item:hover {
+    background-color: none;
+
+
+}
+
+.page-link {
+    color: black;
+    border: none;
+
+}
+
+
+.one {
+    background-color: black;
+}
+
+.page-item .page-link {
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: "Karma", sans-serif;
+}
+
+
+.one {
+    color: rgb(255, 255, 255);
+    
+}
+
+.page-link {
+    padding: 8px 16px;
+}
+
+.page-item {
+    margin: auto;
+    width: 39px;
+}
+
+
+
+#one-hr {
+    position: relative;
+    top: 141px;
+    margin: auto;
+    width: 76.7%;
+    border-top: 1px solid #eee;
+
+}
+
+
+
+
+.one-div {
+    position: relative;
+    top: 194px;
+    right: 2.5px;
+}
+
+
+.two-div {
+    position: relative;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 52%;
+    top: 216px;
+}
+
+
+
+.three-div,
+.four-div {
+    position: relative;
+    top: 260px;
+    text-align: center;
+}
+
+#fourth_section .one-h4 {
+    position: relative;
+    top: 1px;
+    font-weight: bolder;
+    font-size: 19px;
+    line-height: 1.5;
+
+}
+
+
+#fourth_section .one-i {
+    position: relative;
+    bottom: 2px;
+
+}
+
+.five-div .one-p {
+    position: relative;
+    top: 273px;
+    margin: auto;
+    width: 1138px;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+
+}
+
+
+#two-hr {
+    margin: auto;
+    width: 76.7%;
+    position: relative;
+    top: 371.6px;
+    border-top: 1px solid #eee;
+    padding: 20px;
+}
+
+
+
+#five_section {
+    display: flex;
+    position: relative;
+    padding-bottom: 75px;
+
+}
+
+#five_section .one-divison {
+    margin: auto;
+    width: 24.5%;
+    margin-left: 191.5px;
+    margin-top: 397.3px;
+}
+
+
+
+#five_section .o-d-h3,
+#five_section .t-d-h3,
+#five_section .th-d-h3 {
+    font-size: 24px;
+
+}
+
+
+#five_section .o-d-p,
+.o-d-p2 {
+    margin-top: 18.5px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+#five_section .o-d-p2 {
+    position: relative;
+    bottom: 3.5px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+
+
+.two-divison {
+    margin-left: auto;
+    width: 368px;
+}
+
+
+#five_section .two-divison {
+    position: relative;
+    right: 375.5px;
+}
+
+
+#five_section .t-d-h3 {
+    position: relative;
+    top: 397.9px;
+    right: 200.2px;
+
+
+}
+
+
+.two-divison .one-div,
+.two-divison .sec-div {
+    position: relative;
+    top: 403.1px;
+    right: 200.3px;
+    margin: auto;
+    width: 368px;
+    padding: 16px;
+    display: flex;
+
+
+}
+
+
+
+
+
+.two-divison .one-div:hover,
+.two-divison .sec-div:hover {
+    background-color: #ccc;
+}
+
+.two-divison .sec-div {
+    border-top: 1px solid #ddd;
+    ;
+}
+
+.two-divison .one-div .o-d-i,
+.second-div .sec-div .t-d-i {
+    background-color: red;
+    margin-right: 16px;
+
+}
+
+.two-divison .o-i-p,
+.two-divison .t-i-p {
+    margin: 0px;
+    font-size: 18px;
+}
+
+.two-divison .o-i-p2,
+.two-divison .t-i-p2 {
+    margin: 0px;
+    font-size: 15px;
+}
+
+
+
+#five_section .th-d-h3 {
+    position: relative;
+    top: 186.7px;
+    left: 184PX;
+    margin: 10PX 0;
+
+}
+
+
+
+.third-div .th-d-o,
+.third-div .th-d-t {
+    padding: 0px 8px;
+    position: relative;
+    top: 193px;
+    left: 170px;
+    text-align: center;
+}
+
+
+
+
+.third-div .th-s {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    background-color: #616161;
+    font-size: 12px;
+    font-family: serif;
+    margin: 0px 0px 16px;
+    padding: 0px 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    line-height: 1.5;
+
+}
+
+.third-div .th-sp {
+    color: white;
+    background-color: #000000;
+    font-size: 15px;
+    font-family: serif;
+    margin: 0px 0px 16px;
+    padding: 3px 8px;
+    line-height: 1.5;
+}
+
+
+.third-div .th-d-t {
+    margin: auto;
+    width: 381px;
+    position: relative;
+    left: 176px;
+}
+
+
+.third-div .th-d-th {
+    padding: 0px 8px;
+    position: relative;
+    top: 193px;
+    left: 177px;
+    text-align: start;
+}
